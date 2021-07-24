@@ -1,9 +1,10 @@
 import React from 'react'
+import Nav from './Nav'
 
 export default function Header(){
   return(
-    <>
-    <p>Soy un Header</p>
-    </>
+    <header>
+     <Nav/>
+    </header>
   )
 }
