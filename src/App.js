@@ -10,8 +10,9 @@ import Footer from './Component/Footer';
 
 function App() {
   return (
-    <main>
+    <>
    <Header/>
+    <main>
    <Main/>
    <About/>
    <Skill/>
@@ -19,6 +20,7 @@ function App() {
    <Contact/>
    <Footer/>
   </main>
+  </>
   )
 }
 
