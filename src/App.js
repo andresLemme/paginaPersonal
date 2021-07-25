@@ -1,5 +1,5 @@
 
-import './App.css';
+import './App.scss';
 import Header from './Component/Header';
 import Main from './Component/Main';
 import About from './Component/About';
@@ -10,7 +10,7 @@ import Footer from './Component/Footer';
 
 function App() {
   return (
-    <>
+    <main>
    <Header/>
    <Main/>
    <About/>
@@ -18,7 +18,7 @@ function App() {
    <Projects/>
    <Contact/>
    <Footer/>
-  </>
+  </main>
   )
 }
 
