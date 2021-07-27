@@ -1,26 +1,17 @@
 
-import './App.scss';
-import Header from './Component/Header';
-import Main from './Component/Main';
-import About from './Component/About';
-import Skill from './Component/Skill';
-import Projects from './Component/Projects';
-import Contact from './Component/Contact';
-import Footer from './Component/Footer';
+import './App.css';
+import Hero from './Component/Hero';
+import Navbar from './Component/Navbar';
+
 
 function App() {
   return (
-    <>
-   <Header/>
-    <main>
-   <Main/>
-   <About/>
-   <Skill/>
-   <Projects/>
-   <Contact/>
-   <Footer/>
-  </main>
-  </>
+  <div className="contaninerHome">
+  <Navbar/>
+  <Hero/>
+
+  </div>
+  
   )
 }
 
