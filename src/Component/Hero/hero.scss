@@ -1,0 +1,43 @@
+.block-division {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  @media screen and (max-width: 458px){
+    grid-template-columns: 1fr;
+    flex-direction: column-reverse;
+    display: flex;
+  }
+ 
+
+  .block-left {
+    padding: 100px 0 100px;
+    
+    h3{
+      font-size: 60px;
+      margin-bottom: 0px;
+      margin-top: 0px;
+    }
+    h1{
+      font-size: 70px;
+      margin: 0px;
+    }
+    p{
+      font-size: 30px;
+      margin: 0;
+    }
+   
+}
+
+.block-right{
+  
+  display: flex;
+  align-items:center;
+  justify-content:flex-end;
+ 
+  img{
+    width: 50%;
+    border-radius: 100%;
+    display: flex;
+  }
+}
+
+}
