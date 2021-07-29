@@ -1,6 +1,8 @@
 .block-division {
   display: grid;
   grid-template-columns: 1fr 1fr;
+ 
+
   @media screen and (max-width: 458px){
     grid-template-columns: 1fr;
     flex-direction: column-reverse;
@@ -10,6 +12,9 @@
 
   .block-left {
     padding: 100px 0 100px;
+    @media screen and (max-width: 458px){
+     padding: 60px 0;
+    }
     
     h3{
       font-size: 60px;
@@ -32,12 +37,20 @@
   display: flex;
   align-items:center;
   justify-content:flex-end;
+  @media screen and (max-width: 458px){
+    justify-content:center;
+  }
  
   img{
     width: 50%;
     border-radius: 100%;
     display: flex;
   }
+}
+.shapes{
+  position: relative;
+
+  
 }
 
 }

@@ -9,7 +9,7 @@ menu, nav, section, summary {
   line-height: 1;
   border: 0;
 	font-size: 100%;
-  overflow-x: inherit;
+  overflow-x:initial;
 }
 
 a {
@@ -21,6 +21,7 @@ a {
   box-sizing: border-box;
   color: #333;
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 img{
   max-width: 100%;
@@ -32,10 +33,41 @@ li{
 .contaninerHome{
   background-color: aquamarine;
   margin-top: 0px;
+
 }
 
 .container-main{
   max-width: 1280px;
   margin: 0 auto;
-  padding-top: 50px;
+  padding: 50px 0;
+  
+
 }
+.contaninerHome::before{
+  content: "";
+  display: block;
+  width: 820px;
+  height: 820px;
+  position: absolute;
+  left: -280px;
+  top: 666px;
+  
+  background-color: #0b1a40;
+  transform: rotate(-45deg);
+  border-radius: 50px;
+}
+
+
+  /* .contaninerHome::after{
+    content: "";
+    display: block;
+    width: 520px;
+    height: 520px;
+    position: absolute;
+    left: -280px;
+    top: 666px;
+    
+    background-color: #0b1a40;
+    transform: rotate(-45deg);
+    border-radius: 50px;
+  } */
