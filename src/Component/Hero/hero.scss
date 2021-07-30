@@ -1,7 +1,20 @@
 .block-division {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  align-items: flex-end;
  
+  .shapes-fixed{
+    content: "";
+    display: block;
+    width: 820px;
+    height: 820px;
+    position: sticky;
+    right: -190px;
+    top: -75px;
+    background-color: #0b1a40;
+    transform: rotate(-45deg);
+    border-radius: 50px;
+  }
 
   @media screen and (max-width: 458px){
     grid-template-columns: 1fr;
@@ -37,6 +50,7 @@
   display: flex;
   align-items:center;
   justify-content:flex-end;
+ 
   @media screen and (max-width: 458px){
     justify-content:center;
   }
@@ -47,10 +61,6 @@
     display: flex;
   }
 }
-.shapes{
-  position: relative;
 
-  
-}
 
 }

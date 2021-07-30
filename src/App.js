@@ -8,14 +8,17 @@ import Skill from './Component/Skills';
 
 function App() {
   return (
-  <div className="contaninerHome">
   
+
+  <div className="contaninerHome">
+  <div className="shapes-fixed"></div>
   <Navbar/>
   <Hero/>
   <About/>
   <Skill/>
   
   </div>
+  
   
   )
 }
