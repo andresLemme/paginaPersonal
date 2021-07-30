@@ -1,6 +1,8 @@
 .container-box {
   background-color: #05c0a5;
   width: 100%;
+  position: fixed;
+  z-index: 9999;
   nav.navbar-box {
     display: flex;
     align-items: center;
