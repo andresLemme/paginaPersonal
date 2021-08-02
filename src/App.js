@@ -11,7 +11,7 @@ function App() {
   
 
   <div className="contaninerHome">
-  <div className="shapes-fixed"></div>
+
   <Navbar/>
   <Hero/>
   <About/>
