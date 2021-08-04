@@ -10,6 +10,7 @@ export default function About() {
             src="https://media-exp1.licdn.com/dms/image/C4D03AQF-raMfGj5OqA/profile-displayphoto-shrink_800_800/0/1518585170510?e=1632960000&v=beta&t=J0hAAKWLrunPnfmmVNvulbr1e8v-CgYzpUumXh7pFbg"
             alt="Andres Lemme"
           />
+          <a href="" download="" target="_blank">Download CV</a>
         </div>
         <div className="block-right">
           <h2>Sobre mi</h2>
