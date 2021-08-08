@@ -20,40 +20,40 @@
     "skills":[
       {
         "title": "photoshop",
-        "img": "",
+        "img": "https://i.postimg.cc/cJ9jRMx0/photoshop.png"
       },
       {
-        "title": "illustrators",
-        "img": "",
+        "title": "illustrator",
+        "img": "https://i.postimg.cc/v86jnVpw/illustrator.png"
       },
       {
         "title": "Git",
-        "img": "",
+        "img": "https://i.postimg.cc/wMJGYChj/git.png"
       },
       {
         "title": "html",
-        "img": "",
+        "img": "https://i.postimg.cc/dVFzwVNP/html.png"
       },
       {
         "title": "css",
-        "img": "",
+        "img": "https://i.postimg.cc/mDPn8zkM/css.png"
       },
       {
-        "title": "sass",
-        "img": "",
+        "title": "scss",
+        "img": "https://i.postimg.cc/zB4cMzHQ/scss.png"
       },
       {
         "title": "javascript",
-        "img": "",
+        "img": "https://i.postimg.cc/MGKNfr89/javascript.png"
       },
       {
         "title": "react",
-        "img": "",
+        "img": "https://i.postimg.cc/Gmj62n6B/react.png"
       },
       {
         "title": "next.js",
-        "img": "",
-      },
+        "img": "https://i.postimg.cc/J4Z9fkq5/Nextjs.png"
+      }
     ],
     "projects":[
       {
