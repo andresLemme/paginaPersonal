@@ -1,0 +1,16 @@
+.contaninerSkill {
+  .block-division {
+    .block-left {
+      display: flex;
+      .container-skills {
+        display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+        .content-icons {
+          display: flex;
+          flex-wrap: wrap;
+        }
+      }
+    }
+  }
+}
