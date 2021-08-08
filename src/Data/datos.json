@@ -1,11 +1,96 @@
 [
   {
-    "linkHome":{
-      "Home": "Home",
-      "About": "Sobre Mo",
-      "Skill": "Mis Skills",
-      "Proyects": "Proyectos",
-      "Contact": "Contacto"
-    }
+    "home":[
+      {
+        "title":"Andres Federico Lemme",
+        "subtitle":"Lic en Diseño Gráfico Tester Analyst and Frontend Dev"
+      }
+    ],
+    "about":[
+      {
+        "title": "Sobre mi",
+        "desc":  "Actualmente me desarrollo como QA Tester Analyst en el equipo Avanade de Accenture. He formado parte de diferentes proyectos para grandes clientes trabajando principalmente con metodologías ÁGILES (aprendiendo constantemente sobre ellas).",
+        "desc_2": "Comencé como Diseñador Gráfico llevando adelante tareas diseño, impresión, SEO & Online Marketing y luego me convertí en Frontend Developer usando principalmente HTML, CSS, JAvascript, Jquery Framework.",
+        "desc_3": "Como emprendedor desarrolle www.teinvito.com.ar. Un proyecto de invitaciones digitales para eventos en el que me encargo de todas las tareas del mismo. Manejo de redes sociales, diseño de Flyer, Google ADS, Google Analytic, desarrollo de templete en HTML.",
+        "desc_4": "Ahora me encuentro capacitandome y actualizando mis conocimientos en Desarrollo Frontend, haciendo hincapié en tecnologías como “React” y “Node”. Esto permitirá seguir avanzando y afianzando mis habilidades para alcanzar nuevos desafíos laborales.",
+        "desc_5": "Soy una persona apasionado e inquieto de conocimientos en todas las áreas que estén relacionadas al diseño y el desarrollo.",
+        "download_cv": "https://smallpdf.com/es/result#r=b018fe7637b4886e611d58a3a2235211&t=share-document"
+      }
+    ],
+    "skills":[
+      {
+        "title": "photoshop",
+        "img": "",
+      },
+      {
+        "title": "illustrators",
+        "img": "",
+      },
+      {
+        "title": "Git",
+        "img": "",
+      },
+      {
+        "title": "html",
+        "img": "",
+      },
+      {
+        "title": "css",
+        "img": "",
+      },
+      {
+        "title": "sass",
+        "img": "",
+      },
+      {
+        "title": "javascript",
+        "img": "",
+      },
+      {
+        "title": "react",
+        "img": "",
+      },
+      {
+        "title": "next.js",
+        "img": "",
+      },
+    ],
+    "projects":[
+      {
+        "title": "",
+        "desc": "",
+        "img": "",
+        "link": "",
+        "tech": ["react", "scss"]
+      },
+      {
+        "title": "",
+        "desc": "",
+        "img": "",
+        "link": "",
+        "tech": ["react", "scss"]
+      },
+      {
+        "title": "",
+        "desc": "",
+        "img": "",
+        "link": "",
+        "tech": ["react", "scss"]
+      },
+      {
+        "title": "",
+        "desc": "",
+        "img": "",
+        "link": "",
+        "tech": ["react", "scss"]
+      },
+      {
+        "title": "",
+        "desc": "",
+        "img": "",
+        "link": "",
+        "tech": ["react", "scss"]
+      }
+    ]
   }
 ]
